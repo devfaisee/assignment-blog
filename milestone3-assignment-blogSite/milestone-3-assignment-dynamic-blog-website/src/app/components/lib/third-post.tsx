@@ -2,7 +2,7 @@ import React from 'react';
 import CommentSection from '../commentSection';
 import AuthorCard from '../cards/authorCard';
 import Image from 'next/image';
-import profile from '@/assets/profile.png';
+import profile from '@/assets/profile.jpg';
 import thirdImage from "@/assets/AI-collaborator.png";
 
 const ThirdPost = () => {
@@ -38,7 +38,7 @@ const ThirdPost = () => {
         <p className="mb-4 text-gray-700">
           The key to successful AI collaboration is understanding the strengths and weaknesses of both partners. Humans excel at creativity, critical thinking, and emotional intelligence. AI excels at data processing, pattern recognition, and automation. By combining these strengths, we can achieve far more than either could alone. The future isn&apos;t about humans *versus* AI; it&apos;s about humans *with* AI.
         </p>
-        <AuthorCard name="Ali Haider Noorani" bio="A passionate writer and developer" profilePicture={profile}/>
+        <AuthorCard name="Faisal Ali" bio="A passionate writer and developer" profilePicture={profile}/>
         <CommentSection/>
         </div>
   )
