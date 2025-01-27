@@ -2,7 +2,7 @@ import React from 'react';
 import CommentSection from '../commentSection';
 import AuthorCard from '../cards/authorCard';
 import Image from 'next/image';
-import profile from '@/assets/profile.png';
+import profile from '@/assets/profile.jpg';
 import firstImage from "@/assets/A-Brief-History-of-AI_cover.png";
 
 const FirstPost = () => {
