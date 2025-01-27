@@ -2,7 +2,7 @@ import React from 'react';
 import CommentSection from '../commentSection';
 import AuthorCard from '../cards/authorCard';
 import Image from 'next/image';
-import profile from '@/assets/profile.png';
+import profile from '@/assets/profile.jpg';
 import secondImage from "@/assets/AI-Echo.png";
 
 const SecondPost = () => {
@@ -38,7 +38,7 @@ const SecondPost = () => {
         <p className="mb-4 text-gray-700">
           The challenge, of course, lies in ensuring that this amplification is used responsibly and ethically. We must be mindful of the biases that can be amplified along with our voices, the potential for misuse, and the need for human oversight. But at its core, the AI echo is a powerful force for human expression, creativity, and progress. It&apos;s not about replacing us; it&apos;s about making us louder.
         </p>
-        <AuthorCard name="Ali Haider Noorani" bio="A passionate writer and developer" profilePicture={profile}/>
+        <AuthorCard name="Faisal Ali" bio="A passionate writer and developer" profilePicture={profile}/>
         <CommentSection/>
          </div>
   )
