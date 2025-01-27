@@ -8,7 +8,7 @@ interface AuthorCardProps {
     profilePicture: StaticImageData;
 }
 
-const AuthorCard = ({ name, bio, profilePicture }: AuthorCardProps) => {
+const AuthorCard = ({ "Faisal ALi", bio }: AuthorCardProps) => {
   return (
     <div className="bg-white shadow-md rounded-lg p-4 flex items-center space-x-4">
       {/* Profile Picture */}
