@@ -41,7 +41,7 @@ const FirstPost = () => {
         telling you. Because understanding the AI mirror is crucial to
         understanding ourselves.
       </p>
-      <AuthorCard name="Ali Haider Noorani" bio="A passionate writer and developer" profilePicture={profile}/>
+      <AuthorCard name="Faisal Ali" bio="A passionate writer and developer" profilePicture={profile}/>
       <CommentSection/>
     </div>
   );
